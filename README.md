@@ -1,4 +1,4 @@
-# 🤖 AI Nutritionist App
+# 👨‍⚕️ AI Nutritionist App
 
 An AI-powered Health Management application built with **Streamlit** and **Google Gemini API** that helps users analyze food images to estimate **calories** and **classify food items**.  
 
@@ -111,5 +111,6 @@ Developed by **Indana Aditya**
 🌐 [LinkedIn](https://www.linkedin.com/in/aditya-indana-899734216)
 
 💻 [GitHub](https://github.com/22MH1A42G1)
+
 
 
