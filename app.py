@@ -44,7 +44,7 @@ input_prompt = """
 # Streamlit app settings
 st.set_page_config(page_title="AI Nutritionist", page_icon="🥗", layout="wide")
 
-st.header("🥑 AI Nutritionist APP")
+st.header("👨‍⚕️ AI Nutritionist APP")
 user_input = st.text_input("Optional Note / Context (e.g., portion size): ", key="input")
 
 uploaded_file = st.file_uploader("📷 Upload a food image...", type=["jpg", "jpeg", "png"])
@@ -62,3 +62,4 @@ if st.button("Tell me the total calories"):
             response = get_gemini_response(input_prompt, user_input, image_data)
             st.subheader("✅ Result")
             st.write(response)
+
